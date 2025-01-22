@@ -10,7 +10,7 @@ const ProductsData = [
     {
         id: 1,
         img: Product1,
-        title: 'Product 1',
+        title: 'Èbène Royale',
         price: 100,
         color: 'Noir',
         aosDelay: 100,
@@ -18,34 +18,34 @@ const ProductsData = [
     {
         id: 2,
         img: Product2,
-        title: 'Product 2',
+        title: 'Océan Profond',
         price: 100,
         color: 'Bleu',
-        aosDelay: 120,
+        aosDelay: 300,
     },
     {
         id: 3,
         img: Product3,
-        title: 'Product 3',
+        title: 'Brume Élégante',
         price: 100,
         color: 'Gris',
-        aosDelay: 150,
+        aosDelay: 500,
     },
     {
         id: 4,
         img: Product4,
-        title: 'Product 4',
+        title: 'Ombre Luxe',
         price: 100,
         color: 'Noir',
-        aosDelay: 110,
+        aosDelay: 700,
     },
     {
         id: 5,
         img: Product5,
-        title: 'Product 5',
+        title: 'Beige Prestige',
         price: 170,
         color: 'Beige',
-        aosDelay: 110,
+        aosDelay: 1000,
     }
 ]
 

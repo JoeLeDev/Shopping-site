@@ -7,7 +7,7 @@ const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "Tenue traditionnelle",
+    title: "Tenues traditionnelles",
     description: " Alliez classe et confort avec nos costumes sur mesure.",
   },
   {
