@@ -1,5 +1,3 @@
-
-
 import Product1 from '../../assets/Products/Product-1.jpg'
 import Product2 from '../../assets/Products/Product 2.jpg'
 import Product3 from '../../assets/Products/Product 3.jpg'
@@ -56,8 +54,8 @@ const ProductsData = [
         <div className='container'>
      {/*  Header section */}
      <div className='text-center mb-10 max-w-[600px] mx-auto'>
-        <h1 className='text-5xl font-bold text-primary'>Best sellers</h1>
-        <p className='text-xl text-gray-400 py-5'> Voici une selection de nos costumes les plus
+        <h1 data-aos="fade-up" className='text-5xl font-bold text-primary'>Best sellers</h1>
+        <p  data-aos="fade-up" className='text-xl text-gray-400 py-5'> Voici une selection de nos costumes les plus
             populaires.</p>
      </div>
      {/*  Body section */}
@@ -67,7 +65,10 @@ const ProductsData = [
          place-items-center gap-5'>
             {/* card section */}
             {ProductsData.map((data) => (
-                   <div key={data.id}
+                   <div 
+                   data-aos='fade-up'
+                   data-aos-delay={data.aosDelay}
+                   key={data.id}
                    className='space-y-3'>
                         <img src={data.img} alt=""
                         className='h-[370px] w-[350px] object-cover rounded-md'/>
