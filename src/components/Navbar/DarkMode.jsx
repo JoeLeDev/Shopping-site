@@ -1,6 +1,6 @@
 import React from 'react'
-import LightButton from '../../assets/light-mode-button.png'
-import DarkButton from '../../assets/dark-mode-button.png'
+import LightButton from '../../assets/General/light-mode-button.png'
+import DarkButton from '../../assets/General/dark-mode-button.png'
 
 const DarkMode = () => {
     const [theme , setTheme] = React.useState(localStorage.getItem('theme') ?

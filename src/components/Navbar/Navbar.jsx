@@ -1,4 +1,4 @@
-import Logo from "../../assets/Logo.jpeg";
+import Logo from "../../assets/General/Logo.jpeg";
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
@@ -104,7 +104,7 @@ const Navbar = () => {
                     </li>
                 ))}
                 {/* Burger */}
-                <li className="group relative cursor-pointer">
+                <li className="group relative cursor-pointer hover:text-primary duration-200">
                     <a 
                     href="#"
                     className="flex items-center gap-[2px] py-2">

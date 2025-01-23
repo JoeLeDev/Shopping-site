@@ -61,7 +61,7 @@ const ProductsData = [
      {/*  Body section */}
      <div>
         <div
-        className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5
+        className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5
          place-items-center gap-5'>
             {/* card section */}
             {ProductsData.map((data) => (
@@ -69,7 +69,7 @@ const ProductsData = [
                    data-aos='fade-up'
                    data-aos-delay={data.aosDelay}
                    key={data.id}
-                   className='space-y-3'>
+                   className='space-y-1'>
                         <img src={data.img} alt=""
                         className='h-[370px] w-[350px] object-cover rounded-md'/>
                         <h3 className='font-semibold'>{data.title}</h3>

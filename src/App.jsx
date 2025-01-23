@@ -1,7 +1,8 @@
 import React from 'react'
 import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
-import Products from './components/Products/Products'
+import Products from './components/Men/Products'
+import Women from './components/Women/Women'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -21,6 +22,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Products />
+      <Women />
     </div>
   )
 }
