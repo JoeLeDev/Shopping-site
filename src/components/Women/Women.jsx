@@ -1,6 +1,6 @@
-import Img1 from "../../assets/women/Img-1.jpg";
-import Img2 from "../../assets/women/Img-2.jpg";
-import Img3 from "../../assets/women/Img-3.jpg";
+import Img1 from "../../assets/Women/Img-1.jpg";
+import Img2 from "../../assets/Women/Img-2.jpg";
+import Img3 from "../../assets/Women/Img-3.jpg";
 import Img4 from "../../assets/Women/Img-4.jpg";
 
 
@@ -34,7 +34,7 @@ const ProductsData = [
     Avec son décolleté en cœur et sa fente audacieuse, elle incarne le charme et la sophistication.`,
   },
 ];
-const Women = ({ handleOrderPopup }) => {
+const Women = () => {
   return (
     <div>
       <div className="container">
@@ -83,7 +83,7 @@ const Women = ({ handleOrderPopup }) => {
                 <button
                   className="bg-primary hover:scale-105 duration-300 text-white
                      py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary"
-                  onClick={handleOrderPopup}
+                 
                 >
                   Voir
                 </button>
