@@ -10,7 +10,7 @@ const ProductsData = [
     img: Img1,
     title: `Robe Éternelle`,
     description: `Une robe de mariée élégante et intemporelle, parfaite pour sublimer votre grand jour.
-     Son design raffiné en dentelle et sa coupe fluide garantissent un look majestueux.`,
+     Son design raffiné en dentelle garantit un look majestueux.`,
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const ProductsData = [
     id: 3,
     img: Img3,
     title: "Glamour Féérique",
-    description: `Une robe de soirée unique avec des détails scintillants et une coupe asymétrique.
+    description: `Une robe de soirée unique avec des détails scintillants.
      Sa teinte prune et ses volants ajoutent une touche de magie à chaque mouvement.`,
   },
   {
@@ -60,7 +60,7 @@ const Women = () => {
               className="group rounded-2xl bg-white dark:bg-gray-800
                 hover:bg-black/80 dark:hover:bg-primary hover:text-white 
                 shadow-xl duration-300 mb-[20px] overflow-hidden transform transition-all
-                group-hover:scale-110 relative "
+                group-hover:scale-110 relative  min-h-[500px] flex flex-col justify-between"
                      
             >
               {/* image section */}
@@ -76,7 +76,7 @@ const Women = () => {
                 <h1 className="text-xl font-bold">{data.title}</h1>
                 <p
                   className="text-gray-500 my-5 group-hover:text-white duration-300
-                     text-sm "
+                     text-sm line-clamp-6"
                 >
                   {data.description}
                 </p>

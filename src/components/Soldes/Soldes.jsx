@@ -8,15 +8,6 @@ const Soldes = () => {
     <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 xs:gap-10 sm:gap-10 items-center">
-          {/* image section */}
-          <div data-aos="zoom-in">
-            <img
-              src={SoldesImg}
-              alt=""
-              className="max-w-[500px] h-full w-full mx-auto drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]
-                 object-cover"
-            />
-          </div>
 
           {/* text details section */}
           <div className="flex flex-col justify-center gap-6 sm:pt-0">
@@ -25,7 +16,7 @@ const Soldes = () => {
             </h1>
             <p data-aos="fade-up" className="text-sm text-gray-500 tracking-wide leading-5">
               Ne ratez pas l&apos;ocassion de profiter de nos soldes d&apos;hiver.
-              préparez-vous pour vos mariages, vos fêtes et vos sorties de cet
+              Préparez-vous pour vos mariages, vos fêtes et vos sorties de cet
               été.
             </p>
             <div className="flex flex-col gap-4">
@@ -44,6 +35,17 @@ const Soldes = () => {
               </div>
             </div>
           </div>
+
+          {/* image section */}
+          <div data-aos="zoom-in">
+            <img
+              src={SoldesImg}
+              alt=""
+              className="max-w-[500px] h-full w-full mx-auto drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]
+                 object-cover"
+            />
+          </div>
+
         </div>
       </div>
     </div>
