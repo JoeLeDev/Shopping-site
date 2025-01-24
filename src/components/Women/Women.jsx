@@ -60,11 +60,11 @@ const Women = () => {
               className="group rounded-2xl bg-white dark:bg-gray-800
                 hover:bg-black/80 dark:hover:bg-primary hover:text-white 
                 shadow-xl duration-300 mb-[20px] overflow-hidden transform transition-all
-                group-hover:scale-110 "
+                group-hover:scale-110 relative "
                      
             >
               {/* image section */}
-              <div className="h-fit">
+              <div className="h-sm">
                 <img
                   src={data.img}
                   alt=""

@@ -17,12 +17,12 @@ const NewsLetter = () => {
       style={BannerImg}
     >
       <div className="container backdrop-blur-sm py-10">
-        <div className="space-y-6 lg:max-w-2xl xs:max-w-sm mx-auto">
+        <div className="space-y-6 lg:max-w-2xl mx-auto">
           <h1 className="text-2xl !text-center sm:text-left sm:text-4xl font-semibold">
             Être averti à propos des nouveautés
           </h1>
           <input
-            data-aos="fade-up"
+            
             type="email"
             placeholder="Entrez votre adresse email"
             className="w-full p-3"
