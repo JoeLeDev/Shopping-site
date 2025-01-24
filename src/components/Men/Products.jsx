@@ -55,8 +55,8 @@ const ProductsData = [
      {/*  Header section */}
      <div className='text-center mb-10 max-w-[600px] mx-auto'>
         <h1 data-aos="fade-up" className='text-5xl font-bold text-primary'>Best sellers</h1>
-        <p  data-aos="fade-up" className='text-xl text-gray-400 py-5'> Voici une selection de nos costumes les plus
-            populaires.</p>
+        <p  data-aos="fade-up" className='text-xl text-gray-400 py-5'> Voici une selection de nos costumes
+             les plus populaires.</p>
      </div>
      {/*  Body section */}
      <div>

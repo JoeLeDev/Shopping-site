@@ -39,12 +39,12 @@ const Women = () => {
     <div>
       <div className="container">
         {/* Header section */}
-        <div className="text-left mb-24">
+        <div className="text-left mb-8">
           <h1 data-aos="fade-up" className="text-5xl font-bold text-primary">
             Best sellers
           </h1>
           <p data-aos="fade-up" className="text-xl text-gray-400 py-5">
-            {" "}
+           
             Voici une selection de nos robes les plus populaires.
           </p>
         </div>

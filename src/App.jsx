@@ -3,6 +3,7 @@ import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
 import Products from './components/Men/Products'
 import Women from './components/Women/Women'
+import Soldes from './components/Soldes/Soldes'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -23,6 +24,7 @@ const App = () => {
       <Hero />
       <Products />
       <Women />
+      <Soldes />
     </div>
   )
 }
