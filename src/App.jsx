@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import Products from './components/Men/Products'
 import Women from './components/Women/Women'
 import Soldes from './components/Soldes/Soldes'
+import NewsLetter from './components/NewsLetter/NewsLetter'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -25,6 +26,7 @@ const App = () => {
       <Products />
       <Women />
       <Soldes />
+      <NewsLetter />
     </div>
   )
 }

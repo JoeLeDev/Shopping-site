@@ -29,7 +29,7 @@ const Soldes = () => {
               été.
             </p>
             <div className="flex flex-col gap-4">
-              <div data-aos="fade-up"   className="flex items-center gap-4 ">
+              <div data-aos="fade-up" className="flex items-center gap-4 ">
                 <GrSecure 
                   className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 dark:bg-violet-400"/>
                 <p>Produits de Qualité</p>
