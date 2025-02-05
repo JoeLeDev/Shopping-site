@@ -5,6 +5,7 @@ import Products from './components/Men/Products'
 import Women from './components/Women/Women'
 import Soldes from './components/Soldes/Soldes'
 import NewsLetter from './components/NewsLetter/NewsLetter'
+import Footer from './components/Footer/Footer'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Testimonials from './components/Testimonials/Testimonials'
@@ -21,7 +22,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className=''>
+    <div className='bg-white dark:bg-gray-900 dark:text-white duration-200'>
       <Navbar />
       <Hero />
       <Products />
@@ -29,6 +30,7 @@ const App = () => {
       <Soldes />
       <NewsLetter />
       <Testimonials />
+      <Footer />
     </div>
   )
 }
