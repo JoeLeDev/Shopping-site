@@ -7,6 +7,7 @@ import Soldes from './components/Soldes/Soldes'
 import NewsLetter from './components/NewsLetter/NewsLetter'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Testimonials from './components/Testimonials/Testimonials'
 
 const App = () => {
   React.useEffect(() => {
@@ -27,6 +28,7 @@ const App = () => {
       <Women />
       <Soldes />
       <NewsLetter />
+      <Testimonials />
     </div>
   )
 }
